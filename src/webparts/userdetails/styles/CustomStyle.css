@@ -1,0 +1,307 @@
+.commandBarWrapper,
+#spSiteHeader,
+#CommentsWrapper,
+[data-automation-id="pageHeader"] {
+    display: none !important;
+}
+
+.blurBackground_8c43a8ab {
+    position: fixed;
+}
+
+input[inputmode="numeric"] {
+    height: 30px;
+    width: 128px;
+    border: 1px solid rgb(97, 97, 97) !important;
+    padding: 0 8px !important;
+    border-radius: 2px !important;
+}
+
+input:disabled {
+    border-color: transparent !important;
+    background: none rgb(240, 240, 240);
+}
+
+/* .ms-Dropdown-callout {
+    min-height: min-content;
+    overflow: hidden;
+    max-height: 150px;
+    background-color: white;
+    height: 150px;
+} */
+
+.css-1nmdiq5-menu {
+    height: 150px !important;
+    overflow: hidden;
+}
+
+.basic-multi-select.fct-upload .css-1nmdiq5-menu {
+    height: auto !important;
+}
+
+.ms-Callout-main {
+    height: 100% !important;
+    max-height: 250px !important;
+}
+
+.ms-Callout.ms-Dropdown-callout {
+    overflow-y: hidden;
+}
+
+.glocalContainer_8c43a8ab td .ms-Dropdown-container {
+    width: 160px !important;
+}
+
+/* table .ms-ComboBox input {
+    width: auto !important; 
+} */
+.cardBody_4f581516 .form_4f581516>div {
+    width: 47% !important;
+}
+
+.form_Container_409e9ba3 .dropdownFieldContainer_409e9ba3 .ms-Dropdown-container {
+    width: 180px !important;
+}
+
+.gridOuterDiv_8c43a8ab .card_0c26967c {
+    top: 0;
+}
+
+.card_4f581516 {
+    top: 10%;
+    width: 50%;
+    left: 24%;
+}
+
+.button_Position_4f581516,
+.button_Position_0c26967c,
+.button_Position_e2ffee36,
+.button_Position_f0b304d7 {
+    justify-content: end;
+}
+
+.css-1n6sfyn-MenuList {
+    max-height: 100px !important;
+}
+
+.css-513ygd-ValueContainer {
+    display: grid !important;
+}
+
+#spPageCanvasContent {
+    padding-bottom: 20px;
+}
+
+.css-rrdvba-ValueContainer {
+    display: grid;
+}
+
+.css-rrdvba-ValueContainer,
+.country-input>div>div>div:first-child {
+    display: grid;
+}
+
+.basic-multi-select.country-input .css-1dimb5e-singleValue,
+.basic-multi-select.country-input .css-1jqq78o-placeholder {
+    margin-top: 6px !important;
+}
+
+html,
+body {
+    height: 100%;
+    display: inline;
+    overflow: auto;
+}
+
+#spPageCanvasContent {
+    padding-bottom: 20px;
+}
+
+
+/* Hide input type number arrow */
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.form_f0b304d7 .dropdown-237 {
+    width: 100% !important;
+}
+
+.cnclButton_4f581516,
+.cnclButton_0c26967c,
+.cnclButton_e2ffee36,
+.cnclButton_f0b304d7 {
+    margin-left: 15px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: inherit;
+    margin: 0;
+}
+
+.ControlZone {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.ms-ProgressIndicator {
+    display: none !important;
+}
+
+table {
+    .ms-Checkbox {
+        justify-content: center;
+    }
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+#sp-appBar {
+    display: none;
+}
+
+/* .ms-ComboBox input {
+    width: auto !important;
+} */
+
+/* To removing asterisk after input fields by keeping it after labels only*/
+
+.ms-TextField-fieldGroup::before {
+    display: none;
+}
+
+.ms-Dropdown::before {
+    display: none;
+}
+
+div#spLeftNav {
+    display: none;
+}
+
+.a_a_50a7110f:not(.c_a_50a7110f):not(.b_a_50a7110f) {
+    padding: 0 !important;
+}
+
+.a_b_50a7110f:not(.c_b_50a7110f) {
+    padding: 0 !important;
+}
+
+@media (min-width: 1024px) {
+    [class*="_50a7110f"] {
+        max-width: 100% !important;
+        padding: 0 !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .a_c_50a7110f:not(.b_c_50a7110f) .p_c_50a7110f {
+        display: flex !important;
+        max-width: 100% !important;
+        padding: 0 !important;
+    }
+}
+
+.a_c_50a7110f:not(.b_c_50a7110f):not(.j_c_50a7110f) {
+    padding: 0 !important;
+}
+
+#SuiteNavWrapper {
+    display: none !important;
+}
+
+.a_c_50a7110f {
+    padding: 0 !important;
+}
+
+.ms-Dialog-subText {
+    white-space: pre-line;
+}
+
+/* @media (min-width: 480px) {
+    .ms-Dialog-main {
+        max-width: 475px;
+        min-width: 300px;
+    }
+} */
+
+/* @media (min-width: 767px) {
+    .ms-Dialog-main {
+        max-width: 100%;
+        min-width: 300px;
+    }
+} */
+
+@media (max-width: 767px) {
+    .ms-Layer-content .main-266 {
+        inset: unset !important;
+        bottom: 14% !important;
+        left: 15% !important;
+    }
+}
+
+.ms-Dialog-main {
+    margin-top: 5%;
+    /* width: 70%; */
+    min-width: 300px;
+    max-width: 475px;
+}
+
+.ms-Modal-scrollableContent {
+    max-height: 70vh;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(36, 36, 36);
+    box-shadow: none;
+    margin: 0px;
+    display: inline-block;
+    padding: 5px 0px;
+}
+
+.css-1kro71x-ValueContainer,
+.css-qbdosj-Input {
+    overflow: hidden !important;
+}
+
+
+/* .circle-243,
+.ms-Spinner-circle {
+    position: absolute;
+    right: 50%;
+    top: 25%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+} */
+
+@media (max-width: 768px) {
+    .label-218 {
+        margin: 0;
+    }
+}
+
+[class^="fui-AccordionHeader"] {
+    font-weight: bold;
+}
+
+
+/* To hide the gray box with developer name */
+.fv_w_9f38462c {
+    display: none
+}
+
+.fv_ai_9f38462c {
+    display: none
+}
