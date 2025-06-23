@@ -1,73 +1,38 @@
-# userdetails
+# 🧩 React + TypeScript CRUD App with SharePoint Online (SPFx)
 
-## Summary
+This project demonstrates CRUD (Create, Read, Update, Delete) operations using **React**, **TypeScript**, and the **SharePoint Framework (SPFx)**. It is designed to integrate seamlessly with **SharePoint Online** lists to manage user data through a modern web part interface.
 
-Short summary on functionality and used technologies.
+## 📌 Features
 
-[picture of the solution in action, if possible]
+- Perform Create, Read, Update, and Delete operations
+- React-based modern UI
+- Type-safe implementation using TypeScript
+- Fully integrated with SharePoint Online lists
+- Developed using SharePoint Framework (SPFx)
+- Easy deployment and reusable across modern SharePoint sites
 
-## Used SharePoint Framework Version
+## 🛠️ Tech Stack
 
-![version](https://img.shields.io/badge/version-1.17.3-green.svg)
+- SharePoint Online
+- SharePoint Framework (SPFx)
+- React
+- TypeScript
+- Fluent UI (optional)
+- PnP JS (optional)
 
-## Applies to
+## 🧪 Prerequisites
 
-- [SharePoint Framework](https://aka.ms/spfx)
-- [Microsoft 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
+Before setting up the project, ensure you have the following installed:
 
-> Get your own free development tenant by subscribing to [Microsoft 365 developer program](http://aka.ms/o365devprogram)
+- Node.js (v14.x recommended for SPFx v1.14+)
+- Yeoman SharePoint Generator
+- Gulp CLI
+- SharePoint Online Tenant
+- Visual Studio Code
 
-## Prerequisites
+## ⚙️ Setup Instructions
 
-> Any special pre-requisites?
-
-## Solution
-
-| Solution    | Author(s)                                               |
-| ----------- | ------------------------------------------------------- |
-| folder name | Author details (name, company, twitter alias with link) |
-
-## Version history
-
-| Version | Date             | Comments        |
-| ------- | ---------------- | --------------- |
-| 1.1     | March 10, 2021   | Update comment  |
-| 1.0     | January 29, 2021 | Initial release |
-
-## Disclaimer
-
-**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
-
----
-
-## Minimal Path to Awesome
-
-- Clone this repository
-- Ensure that you are at the solution folder
-- in the command-line run:
-  - **npm install**
-  - **gulp serve**
-
-> Include any additional steps as needed.
-
-## Features
-
-Description of the extension that expands upon high-level summary above.
-
-This extension illustrates the following concepts:
-
-- topic 1
-- topic 2
-- topic 3
-
-> Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
-
-> Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
-
-## References
-
-- [Getting started with SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
-- [Building for Microsoft teams](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/build-for-teams-overview)
-- [Use Microsoft Graph in your solution](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/using-microsoft-graph-apis)
-- [Publish SharePoint Framework applications to the Marketplace](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/publish-to-marketplace-overview)
-- [Microsoft 365 Patterns and Practices](https://aka.ms/m365pnp) - Guidance, tooling, samples and open-source controls for your Microsoft 365 development
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/react-spfx-crud.git
+   cd react-spfx-crud
