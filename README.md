@@ -30,9 +30,9 @@ Before setting up the project, ensure you have the following installed:
 - SharePoint Online Tenant
 - Visual Studio Code
 
-## ⚙️ Setup Instructions
+## 🚀 How to Use
+1. Clone the repository
+2. Run `npm install`
+3. Use `gulp serve` for local testing with SharePoint Workbench
+4. Package and deploy using `gulp bundle --ship` and `gulp package-solution --ship`
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/react-spfx-crud.git
-   cd react-spfx-crud
